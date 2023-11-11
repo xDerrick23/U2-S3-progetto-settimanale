@@ -18,11 +18,11 @@
     />
     <title>Crudazon</title>
   </head>
-  <body class="bg-light">
-    <nav class="navbar navbar-expand-lg border-bottom px-10 py-5">
+  <body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom px-10 py-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"
-          ><img style="width: 100px; vertical-align: unset" src="./assets/download.png" alt="logo"
+          ><img style="width: 100px; vertical-align: unset" src="./assets/logo.jpg" alt="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -58,7 +58,7 @@
           <div class="d-flex justify-content-between align-items-center">
             <h3 class="mb-3">Aggiungi Prodotto</h3>
             <button
-              class="btn border-0 mb-3"
+              class="btn border-0 mb-3 btn-light"
               data-bs-toggle="collapse"
               href="#add-product-form"
               role="button"
@@ -76,13 +76,13 @@
               <input type="text" class="form-control" id="product-description" placeholder="Descrizione Prodotto" />
             </div>
             <div class="mb-2">
-              <input type="text" class="form-control" id="product-brand" placeholder="Brand" />
+              <input type="text" class="form-control" id="product-brand" placeholder="Marca" />
             </div>
             <div class="mb-2">
               <input type="text" class="form-control" id="product-img-url" placeholder="Image Url" />
             </div>
             <div class="mb-2">
-              <input type="number" class="form-control" id="product-price" placeholder="Price" />
+              <input type="number" class="form-control" id="product-price" placeholder="Prezzo" />
             </div>
             <button id="add-product" type="submit" class="btn btn-primary">Aggiungi</button>
           </form>
