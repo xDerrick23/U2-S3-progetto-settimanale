@@ -56,6 +56,10 @@ const fetchProduct = async () => {
 
       cardCol.appendChild(card);
       productsContainer.appendChild(cardCol);
+      
+      cardBtn.addEventListener("click", function () {
+        window.location.assign("./details.html");
+      });
     });
   } catch (error) {
     console.log("Errore", error);
